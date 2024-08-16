@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai or code</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const sayAddy = function (){
+    
+        console.log("chai or code");
+    }
+  const changeText = function (){
+    document.querySelector("h1").innerHTML = "best guess"
+  }
+   const changeMe =  setTimeout(changeText,2000)
+    document.querySelector("#stop").addEventListener('click',function(){
+        clearTimeout(changeMe)
+        console.log("Stop")
+    })
+</script>
+</html>
