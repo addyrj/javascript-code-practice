@@ -72,6 +72,103 @@
 // }
 // console.log(addOfNo(arr))
 // find fobinasi series 
+// swip two variable 
+// let a = 4;
+// let b = 5;
+// let c = a;
+// a = b
+// b= c
+// console.log(`value of a is ${a} and b is ${b}`)
+// with out 3rd variable 
+// let a = 14;
+// let b = 45;
+// [a,b] =[b,a]
+// console.log(`value of a is ${a} and b is ${b}`)
+// palindeon in javascript
+// function isPalindrome (str){
+//     const cleanStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+//     const reversedStr = cleanStr.split('').reverse().join('');
+//     return cleanStr === reversedStr;
+// }
+// console.log(isPalindrom("A man, a plan, a canal, Panama"));
+// console.log(isPalindrom("recercar"));
+// console.log(isPalindrom("hello"));
+// find vowels
+// function findVowelForLoop(str){
+//     const vowels = "aeiouAEIOU";
+//     let count =0;
+//     for(let i =0; i<str.length;i++){
+//         if(vowels.includes(str[i])){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// console.log(findVowelForLoop("helloa world"));
+// function isPrimeOptimization(num){
+//     if (num <=1) return false;
+//     if(num === 2 )return true;
+//     if(num % 2 === 0) return false;
+
+//     for (let i = 3; i<=Math.sqrt(num);i+= 2){
+//         if(num % i=== 0 )return false;
+//     }
+//     return true;
+// }
+// console.log(isPrimeOptimization(1))
+// console.log(typeof undefined);
+// console.log(typeof null);
+``
+// const score = "55f"
+// let newValue = Number(score)
+// console.log(typeof newValue);
+// console.log(newValue)
+// let  isLoggedIn = ""
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn)
+
+// let num = 30;
+// let newValue = String(num)
+// console.log(typeof newValue)
+// console.log(newValue)
+
+// let value = 3
+// let negValue = -value
+// console.log(negValue)
+// console.log(2 + 2)
+// console.log(2 - 2)
+// console.log("2" + 2)
+// console.log("2" - 2)
+// console.log(2 + "2")
+// console.log("2" + 2 +3)
+// console.log(2 + 2 +"3")
+// console.log(2 - 2 +"3")
+// console.log(2 - 2 -"3")
+// console.log(+true);
+// console.log(+"");
+// console.log(-true);
+// const newFun = function(){
+//     console.log("fdj")
+// }
+// console.log(typeof newFun)
+// const name ="add";
+// const email = 12;
+// console.log(`hello my name is ${name.toUpperCase()} and my email is ${email}`)
+// const game = new String('cricket')
+// console.log(game[0]);
+// console.log(game.length)
+// console.log(game.toUpperCase()); 
+// console.log(game.charAt(2))
+// console.log(game.indexOf('t'))
+// const newStr = game.substring(0,5)
+// console.log(newStr)
+// const newStr = game.slice(0,5)
+// console.log(newStr)
+
+
+
+
+
 
 
 

@@ -33,4 +33,4 @@ function outer() {
 }
 
 const fun = outer();
-fun();
+// fun();
